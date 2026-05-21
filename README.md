@@ -15,7 +15,7 @@ This repository provides the algorithms used to verify these conditions and the 
 
 * **/src**: Contains the SageMath scripts used for numerical generation and algorithmic verification.
   * `generate_modular_constant.sage`: Generates the values for the modular constant $A_t^{(q)}$.
-  * `verify_digit_sum.sage`: Evaluates prime candidates against the $q$-adic digit-sum condition.
+  * `verify_digit_sum.ipynb`: Evaluates prime candidates against the $q$-adic digit-sum condition.
 * **/data**: Contains plain text files (`.txt`) with the complete decimal expansions of the exceptionally large prime solutions that were truncated in the paper due to typographical constraints.
   * `solution_q11_t3.txt`
   * `solution_q11_t4.txt` (Contains the full 21,288-digit prime factor)
