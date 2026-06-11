@@ -1,0 +1,33 @@
+[PRIMO - Primality Certificate]
+Version=4.3.3 - LX64
+WebSite=https://www.ellipsa.eu/
+Format=4
+ID=B49C20372C930
+Created=Jun-11-2026 04:04:14 PM
+TestCount=0
+Status=Candidate certified prime
+
+[Comments]
+q=3, t=5, p1
+
+[Running Times (Wall-Clock)]
+1stPhase=0.00s
+2ndPhase=0.01s
+Total=0.01s
+
+[Running Times (Processes)]
+1stPhase=0.01s
+2ndPhase=0.01s
+Total=0.02s
+
+[Candidate]
+File=/home/ricardo/Downloads/primo-433-lx64/primos/q3_t5_p1.in
+N=$77E9E58B9D
+HexadecimalSize=10
+DecimalSize=12
+BinarySize=39
+
+[Signature]
+1=$5FA5C56698A08660A44079946EAB86D2AB85C3E6292C9B58
+2=$7BB5D40ED86F560A9DEFA833753F474696CDF8396BE24E42
+
