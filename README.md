@@ -22,7 +22,7 @@ This repository provides the algorithms used to verify these conditions and the 
 ## Computational Methodology
 All numerical generation and algorithmic verifications were executed using **SageMath version 9.5**. 
 
-Due to the massive scale of the modular constants, prime factors provided in the `/data` directory were extracted using the [Alpertron Generic Integer Factorization suite](https://github.com/alpertron/calculators). Before applying the digit-sum constraint, the primality of each candidate factor was strictly verified using the Baillie-PSW Primality Test to ensure absolute mathematical rigor.
+Due to the massive scale of the modular constants, prime factors provided in the /data directory were extracted using the [Alpertron Generic Integer Factorization suite](https://github.com/alpertron/calculators). With the sole exception of a 21,288-digit probable prime, all candidate factors have been formally certified using Elliptic Curve Primality Proving (ECPP) to ensure absolute mathematical rigor.
 
 ## Usage
 To run the digit-sum verification on a specific prime from our dataset:
